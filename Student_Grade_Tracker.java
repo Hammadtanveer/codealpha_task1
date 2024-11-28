@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Student_Grade_Tracker {
     public static void main(String[] args) {
-        System.out.println("enter the number of students-:");
+        System.out.println("Enter the number of students-:");
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         float[] arr = new float[n+1];
